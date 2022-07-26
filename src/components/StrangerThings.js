@@ -25,7 +25,6 @@ const upsideDownConfig = {
   timeout: REACT_APP_UPSIDEDOWN_TIMEOUT,
 };
 
-
 const charactersService = new CharactersService(strangerThingsConfig);
 const charactersUpsideDownService = new CharactersService(upsideDownConfig);
 
